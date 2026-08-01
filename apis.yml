@@ -1,8 +1,24 @@
 aid: picojool
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/picojool.png
 name: PicoJool
-description: 'PicoJool is a company surfaced as a portfolio company of playground-global and added to
-  the API Evangelist network as a stub for enrichment. Sector: energy-transition. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'PicoJool is an optical connectivity company building Vertical Cavity Surface Emitting Lasers
+  (VCSELs) and optical engines for AI and cloud data-center infrastructure. Its 50G NRZ, 100G PAM4, and
+  200G PAM4 VCSEL arrays target 800G and 1.6T transceivers for PCIe, Ethernet, and InfiniBand, aiming to
+  raise bandwidth density and cut the power cost of moving data across hyperscale AI clusters. Founded in
+  2024 and based in Palo Alto, California, PicoJool emerged from stealth in November 2025 with $12M led by
+  Playground Global. It is a semiconductor/photonics hardware company with no public API or developer
+  platform; this profile is maintained by the API Evangelist network for portfolio and market tracking.'
 url: https://raw.githubusercontent.com/api-evangelist/picojool/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +27,23 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Energy Transition
+- Semiconductors
+- Photonics
+- Optical Networking
+- VCSEL
+- AI Infrastructure
+- Data Centers
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/picojool-domain-security.yml
 - type: Website
   url: https://picojool.com/
+- type: Blog
+  name: PicoJool News
+  url: https://picojool.com/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/picojool
+- type: Support
+  name: Contact
+  url: mailto:hello@picojool.com
