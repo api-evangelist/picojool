@@ -31,6 +31,9 @@ description: 'PicoJool is an optical connectivity company building Vertical Cavi
   Playground Global. It is a semiconductor/photonics hardware company with no public API or developer
   platform; this profile is maintained by the API Evangelist network for portfolio and market tracking.'
 url: https://raw.githubusercontent.com/api-evangelist/picojool/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is a semiconductor/photonics hardware company with no public API or developer platform; this profile is maintained by the API Evangelist network for portfolio and market tracking."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
