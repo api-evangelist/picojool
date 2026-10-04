@@ -56,7 +56,7 @@ tags:
 - Optical Networking
 - VCSEL
 - AI Infrastructure
-- Data-Center
+- Data Center
 - Hardware
 tags_raw:
 - Company
@@ -68,6 +68,7 @@ tags_raw:
 - AI Infrastructure
 - Data Centers
 - Hardware
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
